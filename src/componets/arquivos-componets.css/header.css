@@ -1,0 +1,79 @@
+.header {
+  align-items: center;
+  background-image: url('https://www.appmachine.com/wp-content/uploads/2016/02/No-Branding-Header-Background-1.jpg');
+  display: flex;
+  justify-content: end;
+  padding: 30px;
+}
+
+.header header {
+  align-items: center;
+  border-radius: 10px;
+  color: white;
+  display: flex;
+  font-style: oblique;
+  justify-content: space-between;
+  margin-right: 30px;
+  padding: 10px;
+  width: 100%;  
+}
+
+.nome-logo {
+  color: white;
+  display: flex;
+  font-size: 30px;
+}
+
+.nome-logo h1 {
+  font-size: 40px;
+  margin-left: 20px;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-around;
+}
+
+.menu-link h3 {
+  color: rgb(108, 167, 182);
+}
+
+.menu-link {
+  margin: 3px;
+  padding: 20px;
+  padding-left: 280px;
+  padding-right: 280px;
+  text-decoration: none;
+}
+
+.menu-link ::before {
+  transform: scaleX(0);
+  transform-origin: bottom right;
+}
+
+.menu-link :hover::before {
+  transform-origin: bottom left;
+  transform: scaleX(1);
+}
+
+.menu-link ::before {
+  background: rgb(203, 217, 221);
+  content: ' ';
+  display: block;
+  inset: 0 0 0 0;
+  position: absolute;
+  transition: transform 0.3s ease;
+  top: 0; right: 0; bottom: 0; left: 0;
+  z-index: -1;
+}
+  
+.menu-link {
+  font-size: 2rem;
+  position: relative;
+}
+
+.menu-link:visited { color: #551a8b; }
+.menu-link:link:active, :visited:active { color: #ff0000; }
+.menu-link:link, :visited { text-decoration: none; cursor: pointer; }
+.menu-linka:link[rel~=help], a:visited[rel~=help],
+.menu-linkarea:link[rel~=help], area:visited[rel~=help] { cursor: help; }

@@ -1,15 +1,15 @@
 # Trybe Tunes
-No módulo front-end da [Trybe], tivemos a oportunidade de desenvolver o projeto TrybeTunes, uma aplicação capaz de reproduzir músicas das mais variadas bandas e artistas, criar uma lista de músicas favoritas e editar o perfil da pessoa usuária logada.
+No módulo front-end da **Trybe**, tivemos a oportunidade de desenvolver o projeto TrybeTunes, uma aplicação capaz de reproduzir músicas das mais variadas bandas e artistas, criar uma lista de músicas favoritas e editar o perfil da pessoa usuária logada.
 Então ligue o som e conheça TrybeTunes!
 
 ## Funções
   
  O TrybeTunes é uma aplicação capaz de reproduzir músicas das mais variadas bandas e artistas, criar uma lista de músicas favoritas e editar o perfil da pessoa usuária logada. Essa aplicação será capaz de:
-  - [x]Fazer login;
-  - [x]Pesquisar artista/banda/música;
-  - [x]Listar artista/banda/música;;
-  - [x]Reproduzir um techo da músicas;
-  - [x]Favoritar/desfavoritar;
+  - [x] Fazer login;
+  - [x] Pesquisar artista/banda/música;
+  - [x] Listar artista/banda/música;;
+  - [x] Reproduzir um techo da músicas;
+  - [x] Favoritar/desfavoritar;
   
 <br>
 _________________________________

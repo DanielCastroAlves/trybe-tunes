@@ -1,9 +1,9 @@
 .div-login {
+    display: flex;
+    flex-direction: column;   
     align-items: center;
     background-color: aliceblue;
     width: 100%;
-    display: flex;
-    flex-direction: column;   
 }
 
 .div-img-login {
@@ -14,12 +14,12 @@
     font-size: 30px;
 }
 .campo-login {
+    display: flex;
+    flex-direction: column;
     align-items: center;
     background-color: rgb(255, 255, 255);    
     border-radius: 5px;
     box-shadow: 3px 4px 3px #c3c3c3;
-    display: flex;
-    flex-direction: column;
     margin: 80px 700px;
     margin-bottom: 400px;
     padding:60px;
@@ -31,7 +31,7 @@
     border: solid rgb(202, 202, 202) 1px;
     margin-bottom: 20px;      
     padding: 5px;
-    width: 100%;
+    width: 170px;
     
 }
 
@@ -46,7 +46,7 @@ input::placeholder {
     margin-bottom: 20px;
     margin-left: 7px;      
     padding: 5px;
-    width: 100%;
+    width: 170px;
     
 }
 

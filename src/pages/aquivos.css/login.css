@@ -1,82 +1,83 @@
 .div-login {
-position: absolute;
-width: 100%;
-height: 100%;
-left: 0px;
-top: 0px;
-background: url('https://www.hardware.com.br/static/wp/2019/09/18/80-4.jpg?fm=pjpg&ixlib=php-3.3.0') no-repeat;
-mix-blend-mode: normal;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  justify-content: center;
+  background: url("https://images7.alphacoders.com/581/581066.jpg") no-repeat;
 }
 
 .div-img-login {
-    display: flex;
-    justify-content: flex-end;
-    margin-top: 100px;
-    margin-right: 50px;
-    color: #ffffff;
-    font-size: 30px;
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  margin-bottom: 50px;
+  color: #ffffff;
+  font-size: 30px;
 }
+
 .campo-login {
-    position: absolute;    
-    width: 510px;
-    height: 1024px;
-    left: 1000px;
-    top: 0px;    
-    background: rgba(255, 255, 255, 0.1);
-    transform: matrix(1, 0, 0, 1, 0, 0);  
-    
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  width: 500px;
+  height: 500px;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.1);
+  transform: matrix(1, 0, 0, 1, 0, 0);
 }
 
 form {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 500px;
-   
+  width: 50%;
+  height: 50%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  margin: auto 50%;
 }
 
 .campo-login input {
-    align-items: center;
-    background-color: rgb(255, 255, 255);
-    border: solid rgb(202, 202, 202) 1px;
-    margin-top: 200px;
-    margin-bottom: 20px;      
-    padding: 10px;
-    width: 300px;
-    border-radius: 5px;
-    
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+  border: solid rgb(202, 202, 202) 1px;
+
+  padding: 10px;
+  width: 300px;
+  border-radius: 5px;
 }
 
 input::placeholder {
-    color: rgb(148, 146, 146);
-    font-weight: bold;
-  }
+  color: rgb(148, 146, 146);
+  font-weight: bold;
+}
 
-.div-button-login button {    
-    background-color: rgb(102, 243, 97);
-    color:white;
-    border-radius: 5px;
-    margin-bottom: 20px;
-    margin-left: 7px; 
-    margin-top: 20px;     
-    padding: 20px;
-    width: 170px;
-    font-weight: bold;
-    
+.div-button-login button {
+  background-color: rgb(102, 243, 97);
+  color: white;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  margin-left: 7px;
+  margin-top: 20px;
+  padding: 20px;
+  width: 170px;
+  font-weight: bold;
 }
 
 button:hover {
-    background-color:  rgb(102, 243, 97);
-    color: #eff2f5;
-    cursor: pointer;
-    transition: all 0.5s;
-    font-weight: bold;
-  }
-  
+  background-color: rgb(102, 243, 97);
+  color: #eff2f5;
+  cursor: pointer;
+  transition: all 0.5s;
+  font-weight: bold;
+}
+
 button:disabled {
-    background-color: #ccc;
-    border: 0px solid white;
-    color: rgb(121, 121, 121);
-    font-weight: bold;
-  }
+  background-color: #ccc;
+  border: 0px solid white;
+  color: rgb(121, 121, 121);
+  font-weight: bold;
+}
